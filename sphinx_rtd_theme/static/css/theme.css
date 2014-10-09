@@ -4125,6 +4125,9 @@ div[class^='highlight'] pre {
   height: 100px;
   width: 100px;
 }
+.wy-side-nav-search a.brand:hover {
+  background: none;
+}
 .wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a {
   color: #fcfcfc;
   font-size: 100%;
