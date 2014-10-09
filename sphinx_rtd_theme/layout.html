@@ -83,7 +83,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
         {% block sidebartitle %}
-          <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
+          <a class="brand" href="http://fastmonkeys.com">
+            <img src="http://www.fastmonkeys.com/static/images/sticker-landing.png" alt="Fast Monkeys">
+          </a>
+          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
         {% endblock %}
         {% include "searchbox.html" %}
       </div>
